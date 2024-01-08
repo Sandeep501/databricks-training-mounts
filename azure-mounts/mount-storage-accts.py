@@ -1,4 +1,9 @@
 # Databricks notebook source
+# MAGIC %md 
+# MAGIC updated
+
+# COMMAND ----------
+
 path = "/mnt/azure-st-batch4"
 secret = dbutils.secrets.get(scope="azuresecrets", key="databricks-secret")
 # print(secret)
